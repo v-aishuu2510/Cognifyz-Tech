@@ -18,9 +18,9 @@ public class TemperatureConverter
 	public static void main(String args[])
 	{
 		
-	   System.out.println("┌────────────────────────┐");
-		System.out.println("|       Temperature Converter   |");
-	   System.out.println("└────────────────────────┘");
+	   System.out.println("────────────────────────");
+           System.out.println("     Temperature Converter  ");
+	   System.out.println("────────────────────────");
 
 		
 		System.out.println("1 . Celsius to Fahrenheit ");
@@ -40,29 +40,29 @@ public class TemperatureConverter
 				case 1:
 					System.out.print("Enter  temparatur in celsius : ");
 					float celsius=sc.nextFloat();
-			       System.out.println("┌────────────────────────┐");
-			       System.out.println("|       Celsius = Fahrenheit       |");
-			       System.out.println("└────────────────────────┘");
-			       System.out.println("      "+ celsius +"°C = "+CelsiusToFahrenheit(celsius)+" °F   " );
-			       System.out.println("└────────────────────────┘\n");
-			       break;
+			                System.out.println("────────────────────────");
+			                System.out.println("      Celsius = Fahrenheit      ");
+			                System.out.println("────────────────────────");
+			                System.out.println("      "+ celsius +"°C = "+CelsiusToFahrenheit(celsius)+" °F   " );
+			                System.out.println("────────────────────────\n");
+			                break;
 			       
 				case 2:
 					System.out.print("Enter  temparatur in fahrenheit  : ");
 					float fahrenheit=sc.nextFloat();
-			       System.out.println("┌────────────────────────┐");
-			       System.out.println("|       Fahrenheit = Celsius       |");
-			       System.out.println("└────────────────────────┘");
-			       System.out.println("    "+ fahrenheit +" °F = "+FahrenheitToCelsius(fahrenheit)+" °C     " );
-			       System.out.println("└────────────────────────┘\n");
-			       break;
+			                System.out.println("────────────────────────");
+			                System.out.println("       Fahrenheit = Celsius      ");
+			                System.out.println("────────────────────────");
+			                System.out.println("      "+ fahrenheit +" °F = "+FahrenheitToCelsius(fahrenheit)+" °C     " );
+			                System.out.println("────────────────────────\n");
+			                break;
 				case 3:
 					System.out.println("**Exit**");
 					return;
 					
-					default:
-						System.out.println("Invalid choice , Please choose valid Number code ");
-						break;
+				default:
+					System.out.println("Invalid choice , Please choose valid Number code ");
+					break;
 				}
 			}
 			catch(Exception e)
@@ -73,3 +73,4 @@ public class TemperatureConverter
 		}
 	}
 }
+
